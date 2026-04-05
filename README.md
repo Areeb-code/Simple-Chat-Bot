@@ -41,4 +41,36 @@ This makes the bot **adaptive over time**.
 ---
 
 ## 📂 Project Structure
- 
+ Simple-Chat-Bot/
+│
+├── chatbot.py # Main chatbot logic
+├── knowledge_base.json # Stores learned responses
+└── README.md
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Areeb-code/Simple-Chat-Bot.git
+2. Navigate to the folder:
+   ```bash
+   cd Simple-Chat-Bot
+3. Run the chatbot:
+   ```bash
+   python chatbot.py
+## 💡 Example Interaction
+```bash
+WELCOME TO THE SIMPLE CHAT_BOT ^_____^
+CHAT BOT :please ask me any thing : )
+
+YOU : hello
+CHAT BOT: I don't know the answer to that question.
+So, could you tell me what will be the proper response of this question
+
+YOU : hi there!
+CHAT BOT: UPDATING THE KNOWLEDGE....
+
+YOU : hello
+CHAT BOT: hi there!
