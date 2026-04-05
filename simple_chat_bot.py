@@ -27,9 +27,9 @@ def save_knowledge(file_path, knowledge):
 def chat_bot(file_path, knowledge):
     print ("WELCOME TO THE SIMPLE CHAT_BOT ^_____^")
     print("CHAT BOT :please ask me any thing : )")
+    response = load_json(file_path)
     while True:
         user_message = input("YOU : ").lower()
-        response = load_json(file_path)
         if isinstance(response, dict):
             if user_message in response:
                 responses = response[user_message]
